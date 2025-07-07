@@ -66,7 +66,7 @@ const Contact: React.FC = () => {
 
 
     return (
-        <div id='contact' className="flex flex-col items-center bg-black justify-center lg:min-h-screen mt-1 space-y-20 px-4 pt-10">
+        <div id='contact' className="flex flex-col items-center bg-black justify-center lg:min-h-screen mt-8 space-y-20 px-4 pt-10">
             <h2 className={`text-5xl ${montserrat.className} text-white relative inline-block`}>
                 <span className="relative z-10">Contact</span>
                 <span className="absolute left-9 -bottom-1 h-5 w-full bg-red-500 z-0"></span>

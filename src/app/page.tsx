@@ -10,7 +10,7 @@ function page() {
     <div>
       <Home />
       <Navbar />
-      <div id='about' className='bg-white/10 backdrop-blur-xs border-2 border-white/20 rounded-xl py-6 md:mx-5 shadow-lg'>
+      <div id='about' className='backdrop-blur-fix py-6 md:mx-5'>
         <About />
         <Projects />
       </div>

@@ -25,7 +25,7 @@ function About() {
     return (
         <div
             ref={sectionRef}
-            className='flex flex-col items-center justify-center min-h-[50vh] space-y-5'
+            className='flex flex-col bg-transparent items-center justify-center min-h-[50vh] space-y-5'
         >
             <h2 className={`text-5xl font-extrabold ${montserrat.className} text-white relative inline-block`}>
                 <span className="relative z-10">About</span>
@@ -40,9 +40,10 @@ function About() {
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={isPhotoInView ? { opacity: 1, scale: 1 } : {}}
                         transition={{ duration: 0.8, ease: "easeOut" }}
-                        className='bg-gradient-to-r from-pink-500 to-blue-500 p-[2px] rounded-lg size-50'
+                        className='bg-gradient-to-r from-pink-500 to-blue-500 p-[2px] rounded-lg'
                     >
                         {/* PROFILE PHOTO */}
+                        <img className='h-75 bg-[#1b1b1b] rounded-lg' src="/images/profile.png" alt="Profile" />
                     </motion.div>
 
                     <TypingParagraph text={paragraph} className={montserrat2.className} />
