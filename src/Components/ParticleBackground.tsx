@@ -4,7 +4,7 @@ import Particles, { initParticlesEngine } from '@tsparticles/react';
 import { useEffect, useMemo, useState } from 'react';
 import { loadSlim } from '@tsparticles/slim';
 import type { Engine } from '@tsparticles/engine';
-import type { Container, IOptions, RecursivePartial } from '@tsparticles/engine';
+import type { IOptions, RecursivePartial } from '@tsparticles/engine';
 
 interface ParticlesComponentProps {
     id: string;
