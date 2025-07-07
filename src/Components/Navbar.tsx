@@ -29,7 +29,7 @@ function Navbar() {
                     : ''
                 }`}
         >
-            <div className={`flex justify-center md:justify-end items-center space-x-5  min-h-14 text-white text-[10px] md:text-[14px] lg:text-[18px] ${montserrat.className} font-bold`}>
+            <div className={`flex justify-center md:justify-end items-center space-x-5  min-h-14 text-white text-[12px] md:text-[14px] lg:text-[18px] ${montserrat.className} font-bold`}>
                 <Link className='hover:text-red-500 focus:outline-none' href="/#hero">Home</Link>
                 <Link className='hover:text-red-500 focus:outline-none' href="/#about">About</Link>
                 <Link className='hover:text-red-500 focus:outline-none' href="/#projects">Projects</Link>
