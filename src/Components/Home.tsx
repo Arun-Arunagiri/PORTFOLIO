@@ -21,13 +21,13 @@ function Home() {
                     initial={{ opacity: 0, x: -50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5 }}
-                    className={`text-5xl ${montserrat.className} text-white text-center leading-16 lg:leading-10`}>Hello, I'm <span className='text-red-600'>Arunagiri</span>.
+                    className={`text-5xl ${montserrat.className} text-white text-center leading-16 lg:leading-10`}>Hello, I&apos;m <span className='text-red-600'>Arunagiri</span>.
                 </motion.p>
                 <motion.p
                     initial={{ opacity: 0, x: 50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, delay: 0.5 }}
-                    className={`text-5xl ${montserrat.className} text-white text-center  leading-16 lg:leading-0`}>I'm a full stack web developer.
+                    className={`text-5xl ${montserrat.className} text-white text-center  leading-16 lg:leading-0`}>I&apos;m a full stack web developer.
                 </motion.p>
 
 

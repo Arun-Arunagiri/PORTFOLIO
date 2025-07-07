@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useRef, useMemo } from 'react';
+import Image from 'next/image';
 import { motion, useInView } from 'framer-motion';
 
 function TechCard(props: { name: string; icon: string }) {
@@ -22,7 +23,7 @@ function TechCard(props: { name: string; icon: string }) {
                     className="flex flex-col items-center justify-center p-1 border rounded-lg bg-[#1b1b1b] border-transparent hover:border-gradient-to-r from-pink-500 to-blue-500 transition duration-300 shadow-md group"
                 >
                     <div className="p-3 rounded-md">
-                        <img
+                        <Image
                             src={props.icon}
                             alt={props.name}
                             className="h-12 w-12 object-contain"

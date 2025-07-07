@@ -77,7 +77,7 @@ const Contact: React.FC = () => {
                 className={`flex flex-col ${montserrat2.className} w-full max-w-lg space-y-4`}
             >
                 <p className="text-white  text-center mb-6">
-                    Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.
+                    Have a question or want to work together? Leave your details and I&apos;ll get back to you as soon as possible.
                 </p>
 
                 <div>

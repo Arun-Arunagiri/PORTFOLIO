@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Montserrat } from 'next/font/google';
@@ -35,7 +36,7 @@ function Projects() {
                     whileHover={{ scale: 0.98 }}
                     transition={{ duration: 0.3 }}
                     className='relative bg-blue-800 lg:min-h-[50vh] self-start rounded-r-2xl'>
-                    <img src="/images/Iot.png" alt="" className='mr-15 lg:mr-30 my-15 lg:my-10 w-[50vw] rounded-r-2xl' />
+                    <Image src="/images/Iot.png" alt="" className='mr-15 lg:mr-30 my-15 lg:my-10 w-[50vw] rounded-r-2xl' />
                     <motion.div
                         ref={ref1}
                         initial={{ opacity: 0, x: -100 }}
@@ -57,8 +58,8 @@ function Projects() {
                     transition={{ duration: 0.3 }}
                     className='relative bg-blue-800 md:min-h-[50vh] self-end rounded-l-2xl'>
                     <div className='flex justify-evenly bg-white py-15 ml-15 lg:ml-30 my-15 md:my-10 w-[50vw] rounded-l-2xl'>
-                        <img src="/images/chat1.jpg" alt="" className='h-[20vh] md:h-[40vh] lg:h-[60vh] ' />
-                        <img src="/images/chat2.jpg" alt="" className='h-[20vh] md:h-[40vh] lg:h-[60vh] border-2 rounded-[8]' />
+                        <Image src="/images/chat1.jpg" alt="" className='h-[20vh] md:h-[40vh] lg:h-[60vh] ' />
+                        <Image src="/images/chat2.jpg" alt="" className='h-[20vh] md:h-[40vh] lg:h-[60vh] border-2 rounded-[8]' />
                     </div>
                     <motion.div
                         ref={ref2}

@@ -21,9 +21,9 @@ const ParticlesComponent: React.FC<ParticlesComponentProps> = ({ id }) => {
         });
     }, []);
 
-    const particlesLoaded = (container: Container | undefined): void => {
-        console.log(container);
-    };
+    // const particlesLoaded = (container: Container | undefined): void => {
+    //     console.log(container);
+    // };
 
     const options: RecursivePartial<IOptions> = useMemo(() => ({
         background: {

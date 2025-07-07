@@ -1,5 +1,6 @@
 "use client";
 import React, { useRef } from 'react';
+import Image from 'next/image';
 import { Montserrat } from 'next/font/google';
 import TypingParagraph from './TypingParagraph';
 import TechCard from './Techcard';
@@ -43,7 +44,7 @@ function About() {
                         className='bg-gradient-to-r from-pink-500 to-blue-500 p-[2px] rounded-lg'
                     >
                         {/* PROFILE PHOTO */}
-                        <img className='h-75 bg-[#1b1b1b] rounded-lg' src="/images/profile.png" alt="Profile" />
+                        <Image className='h-75 bg-[#1b1b1b] rounded-lg' src="/images/profile.png" alt="Profile" />
                     </motion.div>
 
                     <TypingParagraph text={paragraph} className={montserrat2.className} />
